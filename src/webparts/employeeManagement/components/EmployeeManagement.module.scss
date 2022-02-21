@@ -1,0 +1,50 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.RootContainer{
+  font-weight: normal;
+};
+
+.MainWpContainer{
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  width: 100%;
+  background-color: rgba(250, 249, 246, 0.5);
+  .MainContentArea{
+    padding:5px;
+  }
+}
+
+:global(#spCommandBar){
+  display:none;
+};
+
+:global(#spLeftNav){
+  display: none;
+};
+
+:global(div[data-automation-id='pageHeader']){
+  display:none;
+};
+
+:global(#spSiteHeader){
+  display:none;
+};
+
+:global(#CommentsWrapper){
+  display: none;
+}
+
+:global(div[data-automation-id='CanvasZone']){
+  padding: 0px !important;
+}
+
+:global(div[data-automation-id='CanvasSection']){
+  padding: 0px !important;
+}
+
+:global(div[data-automation-id='CanvasControl']){
+  margin: 0px !important;
+  padding: 0px !important;
+}
